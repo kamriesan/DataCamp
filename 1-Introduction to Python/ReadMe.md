@@ -167,7 +167,6 @@ So inputting `x[2][:2]` will output `**['g', 'h'].**` If we dissect this:
 
 - Variables do not actually contain all the list values themselves, rather, these contain the **reference** to lists
 
-![Untitled](Notes Images/Untitled.png)
 
 Example code:
 
@@ -192,8 +191,6 @@ print(roberts_fam_movies)
 - When you're updating an element the list, it's one and the same list in the computer memory your changing.
 - Both x and y point to this list, so the update is visible from both variables.
 - If you want to create a list y that points to a new list in the memory with the same values,
-
-![Untitled](Notes Images/Untitled%201.png)
 
 ```python
 roberts_fam = ["Barbie", "Roberts", "Ken", "Carson"]
@@ -333,9 +330,6 @@ my_inv([[1,2], [3,4]])
 
 Example: When you want to do calculations on lists
 
-![Untitled](Notes Images/Untitled%202.png)
-
-Here, weight and height are taken. The user wants to determine their individual BMIs
 
 ```c
 import numpy as np
@@ -359,8 +353,6 @@ print(bmi)
 
 Including numpy arrays that have different strings will cause them to print in only one type.
 
-![Untitled](Notes Images/Untitled%203.png)
-
 → numpy is a new Python type, like float string and lists
 
 ### Numpy arrays vs python lists
@@ -379,10 +371,6 @@ print(numpy_Array+numpy_Array)
 # ^ elements will be added together
 print("")
 ```
-
-### Numpy Subsetting
-
-![Untitled](Notes Images/Untitled%204.png)
 
 ### NumPy Array
 
