@@ -2,7 +2,7 @@
 
 # 1. Python Basics
 
-## 📽️ Hello Python!
+## ✏️ Hello Python!
 
 ### Python as a calculator
 
@@ -21,7 +21,7 @@ print(18 % 7)
 print(4 ** 2)
 ```
 
-## 📽️ Variables and Types
+## ✏️ Variables and Types
 
 - Variable
     
@@ -47,7 +47,7 @@ print(bmi)
 
 → changing values
 
-## 📽️ **Other variable types**
+## ✏️ **Other variable types**
 
 - `int` →  integer: a number without a fractional part.
 - `float` → floating point: ex. `1.1`
@@ -76,7 +76,7 @@ print("I started with $" + float(savings) + " and now have $" + str(result) + ".
 
 # 2. Python Lists
 
-## 📽️ Python Lists
+## ✏️ Python Lists
 
 - Python lists
     
@@ -87,7 +87,7 @@ print("I started with $" + float(savings) + " and now have $" + str(result) + ".
     → can contain different data types 
     
 
-## 📽️ Subsetting Lists
+## ✏️ Subsetting Lists
 
 - Index → used to access information in the list. Starts on 0. `var_name[0]`
     
@@ -159,7 +159,7 @@ So inputting `x[2][:2]` will output `**['g', 'h'].**` If we dissect this:
 1. `x[2]`→ The third sublist contains `["g", "h", "i"],`
 2. `[:2]` → This calls for elements starting from elements `0` to `3` which are `"g and "h".` - *if you’re wondering why `“i”` is not included, it’s because the last element is always ommitted.*
 
-## 📽️ Manipulating Lists
+## ✏️ Manipulating Lists
 
 → change, add, remove elements
 
@@ -219,7 +219,7 @@ x[0:2] = ["w", "x"]
 
 # 3. Functions and Packages
 
-## 📽️ Functions
+## ✏️ Functions
 
 ### Familiar Function
 
@@ -252,7 +252,7 @@ To tell Python to specify `reverse` without changing anything about `key`, us
 sorted(___, reverse = ___)
 ```
 
-## 📽️ Methods
+## ✏️ Methods
 
 | Type | Examples of Methods |
 | --- | --- |
@@ -295,7 +295,7 @@ print(founder_house.index("c"))
 print(founder_house.replace('godrick gryffindor', 'harry potter'))
 ```
 
-## 📽️ Packages
+## ✏️ Packages
 
 → Directory of python scripts
 
@@ -329,7 +329,7 @@ my_inv([[1,2], [3,4]])
 
 # 4. NumPy
 
-## 📽️ Numpy
+## ✏️ Numpy
 
 Example: When you want to do calculations on lists
 
@@ -481,7 +481,7 @@ np_x = np.array(x)
 np_x[1]
 ```
 
-## 📽️ 2D Numpy Arrays
+## ✏️ 2D Numpy Arrays
 
 ### Your First 2D NumPy Array
 
@@ -559,7 +559,7 @@ conversion = np.array([0.0254,0.453592,1])
 print(np_baseball*conversion)
 ```
 
-## 📽️ Numpy: Basic Statistics (skipped)
+## ✏️ Numpy: Basic Statistics (skipped)
 
 ### Mean and Median NumPy
 
