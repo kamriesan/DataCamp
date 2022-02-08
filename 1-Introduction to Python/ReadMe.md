@@ -1,4 +1,4 @@
-# Introduction to Python
+# Introduction to Python Notes Summary
 
 # 1. Python Basics
 
