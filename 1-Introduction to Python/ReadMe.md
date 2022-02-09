@@ -74,6 +74,8 @@ result = 200
 print("I started with $" + float(savings) + " and now have $" + str(result) + ". Awesome!")
 ```
 
+
+
 # 2. Python Lists
 
 ## ✏️ Python Lists
@@ -214,6 +216,8 @@ x[0:2] = ["w", "x"]
 
 ---
 
+
+
 # 3. Functions and Packages
 
 ## ✏️ Functions
@@ -323,6 +327,8 @@ my_inv([[1,2], [3,4]])
 ```
 
 ---
+
+
 
 # 4. NumPy
 
