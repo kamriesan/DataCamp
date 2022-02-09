@@ -177,11 +177,11 @@ Example code:
 
 ```python
 # Changing list elements affects Variables
-Hufflepuff_fam = ["Helena", "Hufflepuff", "Rowena", "Ravenclaw"]
-Hufflepuff_fam_movies = Hufflepuff_fam
-Hufflepuff_fam_movies[0:2] = "Merliah","Summers"
-print(Hufflepuff_fam)
-print(Hufflepuff_fam_movies)
+Hufflepuff_house = ["Helena", "Hufflepuff", "Rowena", "Ravenclaw"]
+Hufflepuff_house_movies = Hufflepuff_house
+Hufflepuff_house_movies[0:2] = "Merliah","Summers"
+print(Hufflepuff_house)
+print(Hufflepuff_house_movies)
 
 # Print Result
 # ['Merliah', 'Summers', 'Rowena', 'Ravenclaw']
@@ -193,11 +193,11 @@ print(Hufflepuff_fam_movies)
 - If you want to create a list y that points to a new list in the memory with the same values,
 
 ```python
-Hufflepuff_fam = ["Helena", "Hufflepuff", "Rowena", "Ravenclaw"]
-Hufflepuff_fam_movies = list(Hufflepuff_fam)
-Hufflepuff_fam_movies[0:2] = "Merliah", "Summers"
-print(Hufflepuff_fam)
-print(Hufflepuff_fam_movies)
+Hufflepuff_house = ["Helena", "Hufflepuff", "Rowena", "Ravenclaw"]
+Hufflepuff_house_movies = list(Hufflepuff_house)
+Hufflepuff_house_movies[0:2] = "Merliah", "Summers"
+print(Hufflepuff_house)
+print(Hufflepuff_house_movies)
 
 # Print Result
 # ['Helena', 'Hufflepuff', 'Rowena', 'Ravenclaw']
@@ -218,7 +218,7 @@ x[0:2] = ["w", "x"]
 
 ## ✏️ Functions
 
-### Familiar Function
+### houseiliar Function
 
 To get the type of `3.0` and store the output as a new variable
 
