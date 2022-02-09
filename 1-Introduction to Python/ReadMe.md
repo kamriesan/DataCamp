@@ -177,15 +177,15 @@ Example code:
 
 ```python
 # Changing list elements affects Variables
-roberts_fam = ["Barbie", "Roberts", "Ken", "Carson"]
-roberts_fam_movies = roberts_fam
-roberts_fam_movies[0:2] = "Merliah","Summers"
-print(roberts_fam)
-print(roberts_fam_movies)
+Hufflepuff_fam = ["Helena", "Hufflepuff", "Rowena", "Ravenclaw"]
+Hufflepuff_fam_movies = Hufflepuff_fam
+Hufflepuff_fam_movies[0:2] = "Merliah","Summers"
+print(Hufflepuff_fam)
+print(Hufflepuff_fam_movies)
 
 # Print Result
-# ['Merliah', 'Summers', 'Ken', 'Carson']
-# ['Merliah', 'Summers', 'Ken', 'Carson']
+# ['Merliah', 'Summers', 'Rowena', 'Ravenclaw']
+# ['Merliah', 'Summers', 'Rowena', 'Ravenclaw']
 ```
 
 - When you're updating an element the list, it's one and the same list in the computer memory your changing.
@@ -193,15 +193,15 @@ print(roberts_fam_movies)
 - If you want to create a list y that points to a new list in the memory with the same values,
 
 ```python
-roberts_fam = ["Barbie", "Roberts", "Ken", "Carson"]
-roberts_fam_movies = list(roberts_fam)
-roberts_fam_movies[0:2] = "Merliah", "Summers"
-print(roberts_fam)
-print(roberts_fam_movies)
+Hufflepuff_fam = ["Helena", "Hufflepuff", "Rowena", "Ravenclaw"]
+Hufflepuff_fam_movies = list(Hufflepuff_fam)
+Hufflepuff_fam_movies[0:2] = "Merliah", "Summers"
+print(Hufflepuff_fam)
+print(Hufflepuff_fam_movies)
 
 # Print Result
-# ['Barbie', 'Roberts', 'Ken', 'Carson']
-# ['Merliah', 'Summers', 'Ken', 'Carson']
+# ['Helena', 'Hufflepuff', 'Rowena', 'Ravenclaw']
+# ['Merliah', 'Summers', 'Rowena', 'Ravenclaw']
 ```
 
 ```python
