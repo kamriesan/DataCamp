@@ -95,50 +95,50 @@ print("I started with $" + float(savings) + " and now have $" + str(result) + ".
     var_name[0]
     ```
     
-    - Example, calling the height of Bobbie which is 1.68 `salazars_heights[3]`
+    - Example, calling the height of Sprite which is 1.68 `eternals_heights[3]`
     
     ```python
-    salazars_heights = ["Teddie", 1.73, "Bobbie", 1.68, "Alex", 1.71, "Gabbie", 1.89]
+    eternals_heights = ["Thena", 1.73, "Sprite", 1.68, "Gilgamesh", 1.71, "Sersi", 1.89]
     
-    **salazars_heights[3]**
+    **eternals_heights[3]**
     
-    # index 0 = "Teddie"
+    # index 0 = "Thena"
     # index 1 = 1.73
-    # index 2 = "Bobbie"
+    # index 2 = "Sprite"
     # so on and so forth...
     ```
     
     - Using **negative indexes** `var_name[-1]` will call elements at the end of the list
     
     ```python
-    salazars_heights = ["Teddie", 1.73, "Bobbie", 1.68, "Alex", 1.71, "Gabbie", 1.89]
+    eternals_heights = ["Thena", 1.73, "Sprite", 1.68, "Gilgamesh", 1.71, "Sersi", 1.89]
     
-    **salazars_heights[-1]**
+    **eternals_heights[-1]**
     
     # index -1 = 1.89
-    # index -2 = "Gabbie"
+    # index -2 = "Sersi"
     ```
     
 
 ### List Slicing
 
-→ Allows to select multiple elements from a list, thus creating a new list. `salazars_heights[3:6]`
+→ Allows to select multiple elements from a list, thus creating a new list. `eternals_heights[3:6]`
 
 ```python
-salazars_heights = ["Teddie", 1.73, "Bobbie", 1.68, "Alex", 1.71, "Gabbie", 1.89]
+eternals_heights = ["Thena", 1.73, "Sprite", 1.68, "Gilgamesh", 1.71, "Sersi", 1.89]
 
-**salazars_Heights[3:6]**
+**eternals_Heights[3:6]**
 ```
 
-→ The result of this will include **index 3-5** only `[1.68, 'Alex', 1.71]`. The last index `[6]` will not be included.
+→ The result of this will include **index 3-5** only `[1.68, 'Gilgamesh', 1.71]`. The last index `[6]` will not be included.
 
 - List Slicing while leaving out the first or last index.
 
 ```python
-salazars_heights[:4]
+eternals_heights[:4]
 # result will start from index 0 to index 3
 
-salazars_heights[4:]
+eternals_heights[4:]
 # result will start from index 4 to the last.
 ```
 
